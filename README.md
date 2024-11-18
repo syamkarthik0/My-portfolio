@@ -16,8 +16,7 @@
 
 ## Demo
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/](https://shivam-sharma-myportfolio.vercel.app/).
-
+You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/]
 ## Features
 
 -   **About Me**: A brief introduction about myself.
@@ -47,7 +46,7 @@ You can see a live demo of the portfolio website at [https://shivam-sharma-mypor
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Shivam-Sharma-1/3D-Portfolio
+git clone https://github.com/syamkarthik0/My-portfolio.git
 ```
 
 2. Change to the project directory:
@@ -82,4 +81,4 @@ The project structure is organized as follows:
 
 ## Author
 
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
+-   [@Shivam-Sharma-1](https://github.com/syamkarthik0)
