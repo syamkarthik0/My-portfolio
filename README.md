@@ -16,7 +16,7 @@
 
 ## Demo
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/]
+You can see a live demo of the portfolio website at [https://dharmavarapu-karthik-my-portfolio.netlify.app/]
 ## Features
 
 -   **About Me**: A brief introduction about myself.
