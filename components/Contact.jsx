@@ -24,30 +24,30 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     if (!form.name || !form.email || !form.message) {
       alert("All fields are required.");
       return;
     }
-
+  
     const emailPattern = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
     if (!emailPattern.test(form.email)) {
       alert("Please enter a valid email address.");
       return;
     }
-
+  
     setLoading(true);
-
+  
     emailjs
       .send(
         process.env.NEXT_PUBLIC_SERVICE_ID,
         process.env.NEXT_PUBLIC_TEMPLATE_ID,
         {
           from_name: DOMPurify.sanitize(form.name),
-          to_name: "Dharmavarapu Karthik",
           from_email: DOMPurify.sanitize(form.email),
+          to_name: "Dharmavarapu Karthik",
           to_email: "dharmavarapukarthik@gmail.com",
-          message: DOMPurify.sanitize(form.message),
+          message: `${DOMPurify.sanitize(form.message)} \n\nSender's Email: ${DOMPurify.sanitize(form.email)}`,
         },
         process.env.NEXT_PUBLIC_EMAILJS_KEY
       )
@@ -55,7 +55,7 @@ function Contact() {
         () => {
           setLoading(false);
           alert("Thank you for your message. I will get back to you soon.");
-
+  
           setForm({
             name: "",
             email: "",
@@ -69,6 +69,7 @@ function Contact() {
         }
       );
   };
+  
 
   return (
     <motion.div
