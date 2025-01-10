@@ -329,6 +329,41 @@ const projects = [
     source_code_link: "https://github.com/syamkarthik0/WeatherApp",
     deployed_link: "https://weather-site-by-me.netlify.app/",
   },
+  {
+    name: "MicroTweet",
+    description:
+    "Developed a microservices-based social media platform with high-performance functionality across user profiles, tweet handling, relationship management, and search capabilities. Each feature was implemented as a standalone microservice, deployed on Google Cloud Run for scalability and real-time data processing.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Redis",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Google Cloud Run",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Render",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Data Structures & Algorithms",
+        color: "green-text-gradient",
+      },  
+
+      ],      
+    image: "/assets/projects/tweetpage.png",
+    source_code_link: "https://github.com/syamkarthik0/TweetDSA.git",
+    
+  },
 ];
 
 const socials = [
